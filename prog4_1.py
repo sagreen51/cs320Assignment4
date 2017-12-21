@@ -20,7 +20,7 @@ while (i < len(str_list)):
 	else:
 		print(str,end = "")
 		i +=1
-		print(",")
+		print(",",end = "")
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
