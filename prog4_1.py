@@ -11,4 +11,5 @@ print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 i = 0
-print(text_in_file)
+for i in range[0,4]:
+	print(",".join(text_in_file[i]))
