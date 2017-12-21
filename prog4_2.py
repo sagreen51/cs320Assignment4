@@ -10,8 +10,12 @@ test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 stack = StackMachine()
 #print("0",text_in_file)
-
+'''
+for r in text_in_file:
+    print(r.replace(" ", ","),end = "")
+'''
 for r in text_in_file:
     for s in r.split():
-        print(s,end = "")
-
+        if (s == "push"):
+            stack.push(s+1)
+        elif 
