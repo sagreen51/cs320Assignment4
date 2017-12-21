@@ -14,3 +14,4 @@ i = 0
 for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
+print()
