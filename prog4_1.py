@@ -14,7 +14,7 @@ string = []
 print("0",text_in_file)
 
 for r in text_in_file:
-    print(",".join(r))
+    print(r.replace(" ", ","))
 
 
 
