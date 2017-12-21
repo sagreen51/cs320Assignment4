@@ -11,12 +11,12 @@ test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 string = []
 
-print("0",text_in_file)
+#print("0",text_in_file)
 
 for r in text_in_file:
-    print(r.replace(" ", ","))
+    print(r.replace(" ", ","),end = "")
 
-
+'''
 
 
 
@@ -38,7 +38,7 @@ for s in str_list:
         string += ","
 
 print("".join(string))
-
+'''
 
 
 
