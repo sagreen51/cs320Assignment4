@@ -13,3 +13,4 @@ text_in_file = test_file.readlines()
 
 for r in text_in_file:
     print(r.replace(" ", ","),end = "")
+    print(r)
