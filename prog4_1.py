@@ -10,11 +10,11 @@ print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 i=0
-while (text_in_file[i] != NULL):
+while (text_in_file[i] is not none):
 	str = text_in_file[i]
 	temp = str.split(" ")
 	j=0
-	while(temp[j] != NULL):
+	while(temp[j] is not none):
 		if (temp[j] == " "):
 			print(",")
 		else:
