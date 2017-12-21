@@ -4,7 +4,7 @@ import random
 
 
 print("Assignment %#4-1, Steven Green, s.a.green51@gmail.com")
-fileName = sys.stdin.read()
+fileName = sys.stdin.readline()
 fileName = fileName.strip()
 print("%s".format(fileName))
 test_file = open("testfile.txt","r+")
