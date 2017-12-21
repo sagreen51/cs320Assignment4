@@ -10,5 +10,4 @@ fileName = sys.argv[1]
 print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
-for y in text_in_file:
-	print("".join(y))
+print(text_in_file[1])
