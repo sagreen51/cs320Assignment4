@@ -1,6 +1,5 @@
 import sys
 import os
-import random
 
 x = '#'
 print("Assignment",x,end = '')
@@ -10,10 +9,18 @@ fileName = sys.argv[1]
 print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
-i = 0
-str = text_in_file[i]
-temp = str.split(" ")
-print(temp[0])
+i=0
+while (text_in_file[i] != NULL):
+	str = text_in_file[i]
+	temp = str.split(" ")
+	j=0
+	while(temp[j] != NULL):
+		if (temp[j] == " "):
+			print(",")
+		else:
+			print(temp[j])
+		j+=1
+	i+=1
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
