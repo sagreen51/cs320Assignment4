@@ -12,10 +12,10 @@ test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 i = 0
 str = text_in_file[i]
-print(str.split(" ")
-
+temp = str.split(" ")
+for i in range (0,len(temp))
+	print(temp[i])
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
-print()
-'''
+print()'''
