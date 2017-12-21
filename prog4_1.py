@@ -13,7 +13,7 @@ text_in_file = test_file.readlines()
 i = 0
 str = text_in_file[i]
 temp = str.split(" ")
-for i in range (0,len(temp))
+for i in range(0,len(temp))
 	print(temp[i])
 '''for i in range(0,4):
 	str = text_in_file[i]
