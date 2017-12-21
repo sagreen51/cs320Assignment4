@@ -13,6 +13,15 @@ string = []
 
 print("0",text_in_file)
 
+for r in text_in_file:
+    print(",".join(r))
+
+
+
+
+
+
+
 temp = " ".join(text_in_file)
 print("1",temp,end="")
 
