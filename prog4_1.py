@@ -10,4 +10,7 @@ fileName = sys.argv[1]
 print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
-print(text_in_file[1])
+i = 0
+while(text_in_file[i] != none):
+	print(",".join(text_in_file[i])
+	i = i +1
