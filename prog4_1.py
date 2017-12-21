@@ -1,1 +1,5 @@
-void temp 
+fileName = sys.stdin.readline()
+print(fileName)
+test_file = open(fileName,"r+")
+test_in_file = test_file.read()
+print(test_in_file)
