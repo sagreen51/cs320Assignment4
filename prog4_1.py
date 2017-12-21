@@ -18,13 +18,14 @@ while (i < len(str_list)):
 	if (str == ""):
 		i +=1
 		continue
-	elif(str == "\n"):
+	elif(str == '\n'):
 		i +=1
-		print("".join(str),end = "")
+		continue
 	else:
 		i +=1
 		print("".join(str),end = "")
-		print(",",end="")
+		print(",",end ="")
+	
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
