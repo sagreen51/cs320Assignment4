@@ -9,24 +9,30 @@ fileName = sys.argv[1]
 print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
+string = []
 
-str = " ".join(text_in_file)
-str_list = str.split(" ");
-i  =0
-while (i < len(str_list)):
-	str = str_list[i]
-	if (str == ""):
-		i +=1
-		continue
-	elif(str == '\n'):
-		i +=1
-		continue
-	else:
-		i +=1
-		print("".join(str),end = "")
-		print(",",end ="")
-	
-'''for i in range(0,4):
-	str = text_in_file[i]
-	print(str.replace(" ",","),end = "")
-print()'''
+print("0",text_in_file)
+
+temp = " ".join(text_in_file)
+print("1",temp,end="")
+
+str_list = temp.split(" ");
+print("2",str_list)
+
+for s in str_list:
+    if(s ==""):
+        continue
+    elif(s == '\n'):
+        string += s
+    else:
+        string += s
+        string += ","
+
+print("".join(string))
+
+
+
+
+
+
+
