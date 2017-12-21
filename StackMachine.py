@@ -1,5 +1,5 @@
 class StackMachine:
-	def _init_(self):
+	def __init__(self):
 		self.list = []
 	def push(self, x):
 		self.list.append(int(x))
