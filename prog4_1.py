@@ -11,6 +11,4 @@ print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 i = 0
-while(text_in_file[i]!= '0'):
-	print(",".join(text_in_file[i]))
-	i += 1
+print(text_in_file)
