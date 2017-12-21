@@ -13,4 +13,4 @@ text_in_file = test_file.readlines()
 i = 0
 for i in range(0,4):
 	str = text_in_file[i]
-	print(str.replace(" ",","))
+	print(str.replace(" ",","),end = "")
