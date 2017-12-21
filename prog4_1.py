@@ -11,7 +11,11 @@ print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
 i = 0
-for i in range(0,4):
+str = text_in_file[i]
+print(str.split(" ")
+
+'''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
 print()
+'''
