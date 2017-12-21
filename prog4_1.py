@@ -21,7 +21,7 @@ while (i < len(str_list)):
 	else:
 		i +=1
 		print("".join(str),end = "")
-		if (i ==len(str_list)):
+		if (i ==len(str_list)or str == "\n"):
 			continue
 		else:
 			print(",",end = "")
