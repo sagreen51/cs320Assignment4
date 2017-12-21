@@ -21,11 +21,10 @@ while (i < len(str_list)):
 	else:
 		i +=1
 		print("".join(str),end = "")
-	if(str == "\n"):
-		i +=1
-		continue
-	else:
-		print(",",end = "")
+		if (i ==len(str_list)):
+			continue
+		else:
+			print(",",end = "")
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
