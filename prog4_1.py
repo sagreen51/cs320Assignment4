@@ -17,13 +17,15 @@ while (i < len(str_list)):
 	str = str_list[i]
 	if (str == ""):
 		i +=1
+		continue
 	else:
-		print(str,end = "")
 		i +=1
-		if(i==len(str_list)):
-			break
-		else:
-			print(",",end = "")
+		print("".join(str),end = "")
+	if(str == "\n"):
+		i +=1
+		continue
+	else:
+		print(",",end = "")
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
