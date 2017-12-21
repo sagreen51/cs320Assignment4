@@ -13,4 +13,4 @@ text_in_file = test_file.readlines()
 i = 0
 for i in range(0,4):
 	str = text_in_file[i]
-	",".join(str)
+	print(",".join(str))
