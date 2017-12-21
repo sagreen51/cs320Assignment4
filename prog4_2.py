@@ -18,4 +18,4 @@ for r in text_in_file:
     for s in r.split():
         if (s == "push"):
             stack.push(s+1)
-        elif 
+       # elif 
