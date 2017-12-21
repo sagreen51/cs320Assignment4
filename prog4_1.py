@@ -2,8 +2,8 @@ import sys
 import os
 import random
 
-
-print("Assignment %(#)4-1, Steven Green, s.a.green51@gmail.com")
+x = '#'
+print("Assignment %c4-1, Steven Green, s.a.green51@gmail.com",x)
 fileName = sys.stdin.readline()
 '''fileName = fileName.strip()'''
 print(fileName.name)
