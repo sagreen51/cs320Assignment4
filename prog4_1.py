@@ -12,8 +12,15 @@ text_in_file = test_file.readlines()
 
 str = " ".join(text_in_file)
 str_list = str.split(" ");
-print(str_list)
-
+i  =0
+while (i < len(str_list)):
+	str = str_list[i]
+	if (str == ""):
+		i +=1
+	else:
+		print(str,end = "")
+		i +=1
+		print(",")
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
