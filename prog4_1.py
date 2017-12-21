@@ -9,18 +9,11 @@ fileName = sys.argv[1]
 print(fileName)'''
 test_file = open(fileName,"r+")
 text_in_file = test_file.readlines()
-i=0
-while (text_in_file[i] is not None):
-	str = text_in_file[i]
-	temp = str.split(" ")
-	j=0
-	while(temp[j] is not None):
-		if (temp[j] == " "):
-			print(",")
-		else:
-			print(temp[j])
-		j+=1
-	i+=1
+
+str = " ".join(text_in_file)
+str_list = str.split(" ");
+print(str_list)
+
 '''for i in range(0,4):
 	str = text_in_file[i]
 	print(str.replace(" ",","),end = "")
